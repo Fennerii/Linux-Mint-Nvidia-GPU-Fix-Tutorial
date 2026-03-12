@@ -6,7 +6,6 @@ If you are reading this guide, you are in the same boat as I was with my Victus 
 
 ----------------------------------------------------------------------------------------------------------------------
 #PC Specs
-- **User:** fennerii@Fennerii-hp
 - **OS:** Linux Mint 22.3 x86_64
 - **Host:** Victus by HP Gaming Laptop 16
 - **Kernel:** 6.14.0-37-generic
