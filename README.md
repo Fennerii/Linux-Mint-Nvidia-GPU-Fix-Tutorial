@@ -26,3 +26,23 @@ If you are reading this guide, you are in the same boat as I was with my Victus 
 ----------------------------------------------------------------------------------------------------------------------
 # Tutorial
 
+**Make sure you all all drivers installed and secureboot disabled in the BIOS before continuing** 
+
+## Manual Switching
+Open the Terminal and run these commands.
+
+To check which GPU is currently running
+- prime select query
+
+Should say one of the threee things
+- Other GPU (the actual name)
+- NVIDIA driver
+- On-Demand
+
+### How To Switch
+
+Run:
+ - sudo prime-select (desired GPU of choice)
+(i.e) sudo prime-select intel
+
+This will switch to the intel gpu and shut off the NVIDIA GPU
