@@ -49,11 +49,9 @@ This will switch to the intel gpu and shut off the NVIDIA GPU
 - Go to Keyboard Settings and on the left hand side look for custom shortcut category
 - add custom shortcut
 - Name it what you prefer I stick with Intel,NVIDIA, On-Demand
-
-  add image here
-
+  
   ### Intel Commmand
-  - sh -c "pkexec prime-select intel"
+  - sh -c "pkexec prime-select intel" 
   will bring up a prompt - enter password and it will switch GPU
   Use prime select query in terminal, should return intel
 
