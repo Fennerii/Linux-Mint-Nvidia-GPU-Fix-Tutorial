@@ -5,7 +5,7 @@ Linux mint config with two built in GPU's specifically 1 misc and 1 NVIDIA.  A w
 If you are reading this guide, you are in the same boat as I was with my Victus by HP Gaming Laptop and a fresh installation of linux mint. My cpu would over-heat and my battery would drain from constant power-draw from the NVIDIA gpu being used when it wasn't needed. This is a solution I've come up with to solve my issues
 
 ----------------------------------------------------------------------------------------------------------------------
-#PC Specs
+# PC Specs
 - **OS:** Linux Mint 22.3 x86_64
 - **Host:** Victus by HP Gaming Laptop 16
 - **Kernel:** 6.14.0-37-generic
@@ -23,4 +23,6 @@ If you are reading this guide, you are in the same boat as I was with my Victus 
 - **GPU 1:** NVIDIA GeForce RTX 4060 Max-Q
 - **GPU 2:** Intel Alder Lake-HX GT1 [UHD Graphics]
 - **Memory:** 4259 MiB / 31780 MiB
+----------------------------------------------------------------------------------------------------------------------
+# Tutorial
 
