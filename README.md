@@ -38,11 +38,42 @@ Should say one of the threee things
 - Other GPU (the actual name)
 - NVIDIA driver
 - On-Demand
-
-### How To Switch
-
+  
 Run:
  - sudo prime-select (desired GPU of choice)
 (i.e) sudo prime-select intel
 
 This will switch to the intel gpu and shut off the NVIDIA GPU
+
+### How To Switch With KeyBoard Shortcuts
+- Go to Keyboard Settings and on the left hand side look for custom shortcut category
+- add custom shortcut
+- Name it what you prefer I stick with Intel,NVIDIA, On-Demand
+
+  add image here
+
+  ### Intel Commmand
+  - sh -c "pkexec prime-select intel"
+  will bring up a prompt - enter password and it will switch GPU
+  Use prime select query in terminal, should return intel
+
+
+  ### NVIDIA Commnad
+  - sh -c "pkexec prime-select nvidia && reboot"
+  When turning NVIDIA back on a system reboot **IS NEEDED**
+  Use prime select query in terminal, should retrurn NVIDIA
+
+
+  ### On-Demand Command
+  - sh -c "pkexec prime-select on-demand && reboot"
+  When turning NVIDIA back on a system reboot **IS NEEDED**
+  Use prime select query in terminal, should retrurn On-Demand
+
+Configure with your preferred keybinds
+
+enjoy
+----------------------------------------------------------------------------------------------------------------------
+fennerii 
+
+Last Updated 3/11/26
+
